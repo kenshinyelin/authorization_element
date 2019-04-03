@@ -1,0 +1,38 @@
+.header{
+    background-color: #242f42;
+}
+.login-wrap{
+    background: #324157;
+}
+.plugins-tips{
+    background: #eef1f6;
+}
+.plugins-tips a{
+    color: #20a0ff;
+}
+.el-upload--text em {
+    color: #20a0ff;
+}
+.pure-button{
+    background: #20a0ff;
+}
+
+/*add by max*/
+.el-submenu__title{
+  color: #fff;
+}
+.el-submenu .el-menu{
+  background: rgba(0,0,0,.3);
+}
+.el-submenu .el-menu-item{
+  color: #fff;
+}
+.sidebar i{
+  color: #fff;
+  margin-right: 10px;
+}
+.el-menu-item:focus, .el-menu-item:hover,.el-submenu__title:hover{
+  background: red;
+}
+
+/*add by max*/

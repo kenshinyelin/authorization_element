@@ -1,0 +1,240 @@
+body{
+    background: #f5f5f5;
+}
+.container{
+    min-width: 1200px;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+    background: #fff;
+}
+.header{
+    width:1200px;
+    margin:0 auto;
+    height: 80px;
+}
+.header .logo img{
+    width:60px;
+    height:60px;
+    margin-top:10px;
+}
+.header .nav{
+    font-size: 0;
+}
+.header .nav{
+    margin-left: 30px;
+}
+.header .nav>li{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 80px;
+    margin-right: 20px;
+}
+.header .nav li>.layui-icon{
+    font-size: 12px;
+}
+.header .nav li>ul{
+    display: none;
+    width: 110px;
+    position: absolute;
+    z-index: 999;
+    top: 78px;
+    left: -20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.header .nav li:hover ul{
+    display: block;
+}
+.header .nav li>ul li{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.header .nav li>ul li:hover a{
+    display: block;
+    color: #fff;
+    background-color: #409EFF;
+}
+.header .nav li>ul li:last-child{
+    border-bottom: none;
+}
+.header .nav li a{
+    color: #666;
+}
+.header .nav>li>a:hover,
+.header .nav>li.active>a,
+.gpa-body ul li a:hover,
+.color-blue{
+    color: #409EFF;
+}
+.header .user ul{
+    height: inherit;
+}
+.header .user li{
+    display: inline-block;
+    color: #666;
+    margin-left: 10px;
+}
+.header .user li.username span{
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 60px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.header .user li a:hover{
+    color: orange;
+}
+.header .user{
+    display: inline-block;
+    line-height: 80px;
+    height: 80px;
+}
+.header .user input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-right: 26px;
+    width: 130px;
+    color: #666;
+    height: 30px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.header .user .search{
+    position: relative;
+}
+.header .search i{
+    position: absolute;
+    right: 14px;
+    top: 2px;
+    color: #ccc;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content{
+    width:1200px;
+    margin:30px auto 0 auto;
+    min-height: 710px;
+}
+.content-left{
+    float: left;
+    width:260px;
+}
+.content-right{
+    float: left;
+    margin-left: 20px;
+    width:920px;
+}
+.footer{
+    min-width: 1200px;
+    font-size: 12px;
+    line-height: 20px;
+    background: #2d3237;
+    text-align: center;
+    padding:35px 0;
+    color: #ccc;
+}
+.gpa{
+    color: #666;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+}
+.gpa-head{
+    margin: 0 0 10px;
+    padding: 1px 0 1px 7px;
+    font-weight: 400;
+    border-left: 3px solid #409EFF;
+}
+.gpa-head a{
+    color: #409EFF;
+    font-size: 14px;
+}
+.gpa-body{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.gpa-body>ul li{
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    padding-left:10px;
+}
+.gpa-body>ul li a{
+    color: #666;
+    margin-right: 10px;
+    transition: opacity .5s ease-in;
+}
+.gpa-body ul li .triangle{
+    position: absolute;
+    top:8px;
+    left: 0;
+    right:20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #fff #fff #fff #ccc;
+    -webkit-transform-origin: 25% center;
+    -ms-transform-origin: 25% center;
+    transform-origin: 25% center;
+    border-width: 4px;
+}
+.gpa-body .classify-title{
+    font-weight: bold;
+}
+.gpa-body .classify-children{
+    text-indent: 1em;
+}
+.position{
+    padding-left:20px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    background: #409EFF;
+    color: #fff;
+}
+.position a,
+.position a:hover{
+    color: #fff;
+}
+.layui-btn{
+    background-color: #409EFF;
+}
+.layui-btn-primary{
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+    color: #555;
+}
+.layui-btn-warm{
+    background-color: #FFB800;
+}
+.layui-btn-danger {
+    background-color: #FF5722;
+}
+.layui-btn-disabled, .layui-btn-disabled:active, .layui-btn-disabled:hover {
+    border: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+    color: #C9C9C9;
+    cursor: not-allowed;
+    opacity: 1;
+}
+.layui-form-mid{
+    padding: 7px 0!important;
+}
+.require-icon{
+    color: #f00;
+    margin-right: 2px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: text-top;
+}
